@@ -1,0 +1,22 @@
+{
+  "name": "Maps",
+  "short_name": "Maps",
+  "start_url":  "https://www.google.com/maps?force=pwa&mldebug=tiny:2&source=mlkaiapp",
+  "fullscreen__": true,
+  "description": "Find places and get directions faster with Google Maps.",
+  "icons": {
+    "56": "https://dominickuo.github.io/Maps/128.png",
+    "128": "https://dominickuo.github.io/Maps/128.png" 
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "Required to show user's location on map"
+    }
+  },
+  "activities": {
+    "maps": {
+      "href": "activity.html"
+    }
+  }
+}
+
